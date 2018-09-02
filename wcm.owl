@@ -1,0 +1,916 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#"
+     xml:base="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasAirOperatingTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasAirOperatingTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasDefinition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasDefinition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasMaximumAirOperatingTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasMaximumAirOperatingTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasAirOperatingTemperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasMaximumStorageTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasMaximumStorageTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasStorageTemperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasMinimumAirOperatingTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasMinimumAirOperatingTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasAirOperatingTemperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasMinimumStorageTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasMinimumStorageTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasStorageTemperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasNecessaryAccessory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasNecessaryAccessory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasSpectralRange -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasSpectralRange"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasStorageTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasStorageTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasViewAngle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#hasViewAngle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#madeByCeilometer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#madeByCeilometer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#madeByHumistor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#madeByHumistor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#madeByLysimeter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#madeByLysimeter">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#madeByPyrgeometer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#madeByPyrgeometer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#madeByRainGauge -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#madeByRainGauge">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#madeBySeismometer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#madeBySeismometer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofAirTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofAirTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofApparentTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofApparentTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofTemperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofAzimuth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofAzimuth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofCloudOpacity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofCloudOpacity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDewPoint -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDewPoint">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDiffuseHorizontalIrradiance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDiffuseHorizontalIrradiance">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDirectNormalIrradiance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDirectNormalIrradiance">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDirectNormalIrradiance10thPercentileValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDirectNormalIrradiance10thPercentileValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDirectNormalIrradiance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDirectNormalIrradiance90thPercentileValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDirectNormalIrradiance90thPercentileValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDirectNormalIrradiance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDirectNormalIrradianceCenterValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDirectNormalIrradianceCenterValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofDirectNormalIrradiance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofGlobalHorizontalIrradiance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofGlobalHorizontalIrradiance">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofGlobalHorizontalIrradiance10thPercentileValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofGlobalHorizontalIrradiance10thPercentileValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofGlobalHorizontalIrradiance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofGlobalHorizontalIrradiance90thPercentileValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofGlobalHorizontalIrradiance90thPercentileValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofGlobalHorizontalIrradiance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofGlobalHorizontalIrradianceCenterValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofGlobalHorizontalIrradianceCenterValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofGlobalHorizontalIrradiance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofHumidity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofHumidity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofInstantaneousTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofInstantaneousTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofTemperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofMaximumTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofMaximumTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofTemperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofMinimumTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofMinimumTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofTemperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofOzone -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofOzone">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofPrecipitationIntensity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofPrecipitationIntensity">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofRainfall"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofPrecipitationIntensityMax -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofPrecipitationIntensityMax">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofRainfall"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofPrecipitationProbability -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofPrecipitationProbability">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofRainfall"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofRainfall -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofRainfall">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofTemperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofWind -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofWind">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofWindBearing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofWindBearing">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofWind"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofWindGust -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofWindGust">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofWind"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofWindSpeed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofWindSpeed">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofWind"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofZenith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ofZenith">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Actinometer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Actinometer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#AirOperatingTemperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#AirOperatingTemperature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ApparentTemperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ApparentTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ApparentTemperatureHighTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ApparentTemperatureHighTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ApparentTemperatureLowTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ApparentTemperatureLowTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Azimuth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Azimuth"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Ceilometer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Ceilometer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#CloudOpacity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#CloudOpacity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DarkSky -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DarkSky">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DataProvider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DataProvider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DataProvider"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Definition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Definition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DewPoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DewPoint"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DiffuseHorizontalIrradiance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DiffuseHorizontalIrradiance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradiance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradiance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradiance10thPercentileValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradiance10thPercentileValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradiance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradiance90thPercentileValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradiance90thPercentileValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradiance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradianceCenterValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradianceCenterValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradiance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradiance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradiance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradiance10thPercentileValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradiance10thPercentileValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradiance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradiance90thPercentileValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradiance90thPercentileValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradiance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradianceCenterValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradianceCenterValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradiance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Hour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Hour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Humidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Humidity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Humistor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Humistor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#InstantaneousTemperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#InstantaneousTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Lysimeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Lysimeter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MaximumAirOperatingTemperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MaximumAirOperatingTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#AirOperatingTemperature"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MinimumAirOperatingTemperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MaximumStorageTemperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MaximumStorageTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#StorageTemperature"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MinimumStorageTemperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MaximumTemperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MaximumTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MinimumAirOperatingTemperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MinimumAirOperatingTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#AirOperatingTemperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MinimumStorageTemperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MinimumStorageTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#StorageTemperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MinimumTemperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MinimumTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#OpenWeather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#OpenWeather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DataProvider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Ozone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Ozone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#PrecipitationIntensity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#PrecipitationIntensity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Rainfall"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#PrecipitationIntensityMax -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#PrecipitationIntensityMax">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Rainfall"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#PrecipitationIntensityMaxTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#PrecipitationIntensityMaxTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#PrecipitationProbability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#PrecipitationProbability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Rainfall"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Pressure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Psychrometer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Psychrometer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Pyrgeometer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Pyrgeometer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#RainGauge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#RainGauge"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Rainfall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Rainfall"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Seismometer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Seismometer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Solcast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Solcast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DataProvider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#StorageTemperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#StorageTemperature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#SunriseTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#SunriseTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#SunsetTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#SunsetTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Temperature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#UFJFForecast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#UFJFForecast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DataProvider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WeatherDescription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WeatherDescription">
+        <rdfs:comment>Corresponde a uma subclasse de Base Unit, que é subclasse de Unit, que é subclasse de Standard</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Wind -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Wind"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WindBearing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WindBearing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Wind"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WindGust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WindGust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Wind"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WindGustTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WindGustTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WindSpeed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WindSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Wind"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Zenith -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Zenith"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ApparentTemperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#InstantaneousTemperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MaximumTemperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#MinimumTemperature"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ApparentTemperatureHighTime"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#ApparentTemperatureLowTime"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Hour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#PrecipitationIntensityMaxTime"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#SunriseTime"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#SunsetTime"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WindGustTime"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DarkSky"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#OpenWeather"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Solcast"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#UFJFForecast"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DataProvider"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Definition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DewPoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradiance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Humidity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Ozone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Pressure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Rainfall"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Temperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Time"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WeatherDescription"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Wind"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DataProvider"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DewPoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Humidity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Ozone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Pressure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Rainfall"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Temperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Time"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WeatherDescription"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#Wind"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradiance10thPercentileValue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradiance90thPercentileValue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#DirectNormalIrradianceCenterValue"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradiance10thPercentileValue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradiance90thPercentileValue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#GlobalHorizontalIrradianceCenterValue"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#PrecipitationIntensity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#PrecipitationIntensityMax"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#PrecipitationProbability"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WindBearing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WindGust"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jadef/ontologies/2018/4/wcm#WindSpeed"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
